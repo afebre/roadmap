@@ -1,0 +1,35 @@
+#app-navbar{
+  border-color: #fff;
+}
+
+.image{
+  background: transparent url("/images/pgd-unc.png") no-repeat scroll 0% 0%;
+  background-size: auto 130px;
+  height: 130px;
+  width: 1000px;
+  margin-left: 35%;
+}
+
+.line{
+  background-color: #ff5722;
+  height: 2px;
+  width: 75%;
+  display:block;
+  margin:auto;
+  margin-bottom: 10px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #505253;
+    border-color: #505253;
+    margin: 1px;
+}
+
+.profiler-result, .profiler-button, .profiler-reqs, .profiler-totals{
+  display: none;
+}
+
+.table thead > tr > th{
+  background-color: #009688;
+}
