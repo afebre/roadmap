@@ -52,6 +52,9 @@ msgstr ""
 msgid "#{text}"
 msgstr ""
 
+msgid "All Users"
+msgstr "Todos los usuarios"
+
 msgid "%{application_name}"
 msgstr "DMPonline"
 
@@ -126,21 +129,17 @@ msgstr "user"
 msgid "%{value} is not a valid format"
 msgstr ""
 
-#, fuzzy
 msgid "'Download' allows you to download your plan in various formats. This may be useful if you need to submit your plan as part of a grant application."
-msgstr ""
+msgstr "Descargar: Le permite descargar su plan en varios formatos. Esto puede ser útil si necesita presentar su plan como parte de una solicitud de subvención."
 
-#, fuzzy
 msgid "'Plan Overview' tells you what template and guidance your plan is based on and gives you an overview to the questions that you will be asked."
-msgstr ""
+msgstr "Resumen del plan:  Le informa en qué plantilla y guía se basa su plan y le brinda una descripción general de las preguntas que le harán."
 
-#, fuzzy
 msgid "'Project Details' includes basic administrative details."
-msgstr ""
+msgstr "Detalles del proyecto: Incluye detalles administrativos básicos."
 
-#, fuzzy
 msgid "'Share' allows you to invite others to read or contribute to your plan."
-msgstr ""
+msgstr "Compartir: Le permite invitar a otros a leer o contribuir a su plan."
 
 #, fuzzy
 msgid "(CDL) are consortia supported by the University of Edinburgh and the University of California, respectively. Our primary constituency is the research community. We provide services to the UK, US and international higher education sector. "
@@ -472,9 +471,8 @@ msgstr ""
 msgid "Budget"
 msgstr "Presupuesto"
 
-#, fuzzy
 msgid "By default all new and test plans will be set to ‘Private’ visibility. ‘Public’ and ‘Organisational’ visibility are intended for finished plans. You must answer at least 50% of the questions to enable these options."
-msgstr ""
+msgstr "Por defecto, todoslos planes nuevos y de prueba se establecerán en visibilidad "Privada". La visibilidad 'pública' y 'organizativa' están pensadas para los planes terminados. Debe responder al menos el 50% de las preguntas para habilitar estas opciones."
 
 msgid "Cancel"
 msgstr "Cancelar"
@@ -597,9 +595,8 @@ msgstr "Crear grupo de orientación"
 msgid "Create a new plan"
 msgstr "Crear un nuevo plan"
 
-#, fuzzy
 msgid "Create a plan"
-msgstr ""
+msgstr "Crear un plan"
 
 msgid "Create a template"
 msgstr "Crear una plantilla"
@@ -939,9 +936,8 @@ msgstr "¿Olvidó su clave?"
 msgid "Format"
 msgstr "Formato"
 
-#, fuzzy
-msgid "From here you can download your plan in various formats. This may be useful if you need to submit your plan as part of a grant application. Choose what format you would like to view/download your plan in and click to download. You can also adjust the formatting (font type, size and margins) for PDF files, which may be helpful if working to page limits.</p>"
-msgstr ""
+msgid "From here you can download your plan in various formats. This may be useful if you need to submit your plan as part of a grant application. Choose what format you would like to view/download your plan in and click to download. You can also adjust the formatting (font type, size and margins) for PDF files, which may be helpful if working to page limits."
+msgstr "Desde aquí puedes descargar su plan en varios formatos. Esto puede ser útil si necesita presentar su plan como parte de una solicitud de subvención. Elija el formato en el que desea ver y/o descargar su plan y haga clic para descargar. También puede ajustar el formato (tipo de letra, tamaño y márgenes) para los archivos PDF, lo que puede ser útil si se trabaja con los límites de página."
 
 msgid "Funder"
 msgstr "Financiador"
@@ -994,9 +990,8 @@ msgstr "Grupo de orientación"
 msgid "Guidance group list"
 msgstr "Listado de grupos de orientación"
 
-#, fuzzy
 msgid "Guidance is displayed in the right-hand panel. If you need more guidance or find there is too much, you can make adjustments on the ‘Project Details’ tab."
-msgstr ""
+msgstr "La guía se muestra en el panel de la derecha. Si necesita más orientación o si encuentra demasiada información, puede realizar ajustes en la pestaña "Detalles del proyecto"."
 
 msgid "Guidance list"
 msgstr "Listado de orientaciones"
@@ -1098,9 +1093,8 @@ msgstr "Si desea modificar una de las plantillas a continuación, primero debe c
 msgid "Information about you: how we use it and with whom we share it"
 msgstr ""
 
-#, fuzzy
 msgid "Insert the email address of any collaborators you would like to invite to read or edit your plan. Set the level of permissions you would like to grant them via the radio buttons and click to 'Add collaborator.' Adjust permissions or remove collaborators at any time via the drop-down options."
-msgstr ""
+msgstr "Ingrese la dirección de correo electrónico de cualquier colaborador que desee invitar a leer o editar su plan. Establezca el nivel de permisos que desea otorgarles a través de los botones de opción y haga clic en 'Agregar colaborador'. Ajuste los permisos o elimine colaboradores en cualquier momento a través de las opciones desplegables."
 
 msgid "Institution"
 msgstr "Institución"
@@ -1354,10 +1348,10 @@ msgid "Not answered yet"
 msgstr "Aún no respondido/a"
 
 msgid "Not customised (%{count})"
-msgstr ""
+msgstr "No personliazadas (%{count})"
 
 msgid "Not customized"
-msgstr "No personalizado"
+msgstr "No personalizadas"
 
 msgid "Notice:"
 msgstr "Aviso:"
@@ -1466,9 +1460,8 @@ msgstr "Organización"
 msgid "Organisational Configuration Information"
 msgstr "Información de configuración organizacional"
 
-#, fuzzy
 msgid "Organisational: anyone at your organisation can view your plan."
-msgstr ""
+msgstr "Organizacional: cualquier persona en su organización puede ver su plan."
 
 msgid "Organisations"
 msgstr "Organizaciones"
@@ -1702,9 +1695,8 @@ msgstr "Privado"
 msgid "Private: restricted to me and people I invite."
 msgstr "Privado"
 
-#, fuzzy
 msgid "Private: restricted to you and your collaborators."
-msgstr ""
+msgstr "Privado: restringido a usted y sus colaboradores."
 
 msgid "Private: visible to me, specified collaborators and administrators at my organisation"
 msgstr "Privado: visible para mí, colaboradores específicos y administradores en mi organización"
@@ -1758,9 +1750,8 @@ msgstr "Público: cualquiera puede ver"
 msgid "Public: anyone can view on the web"
 msgstr "Público"
 
-#, fuzzy
 msgid "Public: anyone can view your plan in the Public DMPs list."
-msgstr ""
+msgstr "Público: cualquier persona puede ver su plan en la lista de DMP públicos."
 
 msgid "Public: anyone can view."
 msgstr "Público: cualquiera puede ver."
@@ -1848,7 +1839,7 @@ msgid "Request expert feedback"
 msgstr "Solicitar comentarios a expertos"
 
 msgid "Request feedback"
-msgstr ""
+msgstr "Solicitar comentarios"
 
 msgid "Requestor"
 msgstr ""
@@ -1976,9 +1967,8 @@ msgstr "Establecer visibilidad del plan"
 msgid "Share"
 msgstr "Compartir"
 
-#, fuzzy
 msgid "Share plans"
-msgstr ""
+msgstr "Compartir planes"
 
 msgid "Shared"
 msgstr "Compartido"
@@ -2172,9 +2162,8 @@ msgstr ""
 msgid "The following answer cannot be saved"
 msgstr ""
 
-#, fuzzy
 msgid "The following tab(s) present the questions to answer. There may be more than one tab if your funder or university asks different sets of questions at different stages e.g. at grant application and post-award."
-msgstr ""
+msgstr "Las siguientes pestañas presentan las preguntas para responder. Puede haber más de una pestaña si su financiador o universidad hace diferentes conjuntos de preguntas en diferentes etapas, por ejemplo. en la solicitud de subvención y post-adjudicación."
 
 #, fuzzy
 msgid "The information you provide will be used by the %{org_name} to offer you access to and personalisation of the %{application_name} service."
@@ -2209,9 +2198,8 @@ msgstr ""
 msgid "The search_space does not respond to each"
 msgstr ""
 
-#, fuzzy
 msgid "The tabbed interface allows you to navigate through different functions when editing your plan."
-msgstr ""
+msgstr "La interfaz con pestañas le permite navegar a través de diferentes funciones al editar su plan."
 
 
 msgid "The table below lists the plans that users at your organisation have created and shared within your organisation. This allows you to download a PDF and view their plans as samples or to discover new research data."
@@ -2223,9 +2211,8 @@ msgstr "La siguiente tabla enumera los planes que ha creado y que otros han comp
 msgid "The theme with id %{id} could not be destroyed"
 msgstr ""
 
-#, fuzzy
 msgid "The ‘Share’ tab is also where you can set your plan visibility."
-msgstr ""
+msgstr "La pestaña "Compartir" también es donde puede configurar la visibilidad de su plan."
 
 #, fuzzy
 msgid "Theme created successfully"
@@ -2274,9 +2261,8 @@ msgstr ""
 msgid "There is no theme associated with id %{id}"
 msgstr ""
 
-#, fuzzy
 msgid "There may also be an option to request feedback on your plan. This is available when research support staff at your organisation have enabled this service. Click to ‘Request feedback’ and your local administrators will be alerted to your request. Their comments will be visible in the ‘Comments’ field adjacent to each question. You will be notified by email when an administrator provides feedback."
-msgstr ""
+msgstr "También puede haber comentarios acerca de su plan. Está disponible cuando el personal de apoyo a la investigación en su organización ha habilitado este servicio. Haga clic para "Solicitar comentarios" y sus administradores locales serán alertados de su solicitud. Sus comentarios serán visibles en el campo "Comentarios" junto a cada pregunta. Se le notificará por correo electrónico cuando un administrador proporcione comentarios."
 
 msgid "There seems to be a problem with your logo. Please upload it again."
 msgstr ""
@@ -2334,9 +2320,8 @@ msgstr ""
 msgid "Title"
 msgstr "Título"
 
-#, fuzzy
 msgid "To create a plan, click the 'Create plan' button from the 'My Dashboard' page or the top menu. Select options from the menus and tickboxes to determine what questions and guidance you should be presented with. Confirm your selection by clicking 'Create plan.'"
-msgstr ""
+msgstr "Para crear un plan, haga clic en 'Crear plan' en la página 'Mi tablero' o en la barra de navegación. Seleccione las opciones de los menús y las casillas de verificación para determinar qué preguntas y orientación debe presentar. Confirme su selección haciendo clic en 'Crear plan'."
 
 #, fuzzy
 msgid "To help you write your plan, %{application_name} can show you guidance from a variety of organisations."
@@ -2629,16 +2614,14 @@ msgstr ""
 msgid "What research project are you planning?"
 msgstr "¿Qué proyecto de investigación estás planeando?"
 
-#, fuzzy
 msgid "When viewing any of the question tabs, you will see the different sections of your plan displayed. Click into these in turn to answer the questions. You can format your responses using the text editing buttons."
-msgstr ""
+msgstr "Al ver cualquiera de las pestañas de preguntas, verá las diferentes secciones de su plan. Haga clic en estos a su vez para responder a las preguntas. Puedes formatear tus respuestas usando los botones de edición de texto."
 
 msgid "When you create a new phase for your template, a version will automatically be created. Once you complete the form below you will be provided with options to create sections and questions."
 msgstr "Cuando crea una fase nueva para su plantilla, se creará automáticamente una versión. Una vez complete el siguiente formulario se le darán las opciones para crear secciones y preguntas."
 
-#, fuzzy
 msgid "When you log in to DMPRoadmap you will be directed to the 'My Dashboard' page. From here you can edit, share, download, copy or remove any of your plans. You will also see plans that have been shared with you by others."
-msgstr ""
+msgstr "Cuando inicie sesión en DMPRoadmap, se dirigirá a la página 'Mi tablero'. Desde allí puede editar, compartir, descargar, copiar o eliminar cualquiera de sus planes. También verá planes que otros han compartido con usted."
 
 #, fuzzy
 msgid "Which DMP template would you like to use?"
@@ -2650,9 +2633,8 @@ msgstr "Describir"
 msgid "Write plan"
 msgstr "Escribir plan"
 
-#, fuzzy
 msgid "Write your plan"
-msgstr ""
+msgstr "Escribir un plan"
 
 msgid "Yes"
 msgstr ""
