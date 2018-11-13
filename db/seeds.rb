@@ -32,7 +32,7 @@ languages = [
   {abbreviation: 'en_GB',
    description: '',
    name: 'English (GB)',
-   default_language: true},
+   default_language: false},
   {abbreviation: 'en_US',
    description: '',
    name: 'English (US)',
@@ -48,7 +48,7 @@ languages = [
   {abbreviation: 'es',
    description: '',
    name: 'Español',
-   default_language: false}
+   default_language: true}
 ]
 languages.map{ |l| Language.create!(l) if Language.find_by(abbreviation: l[:abbreviation]).nil? }
 
