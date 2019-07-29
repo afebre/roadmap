@@ -29,8 +29,8 @@ module DMPRoadmap
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
-    # config.i18n.default_locale = :de
-	
+    config.i18n.default_locale = :es
+
 	# Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
 
@@ -39,7 +39,7 @@ module DMPRoadmap
 
     # Enable escaping HTML in JSON.
     config.active_support.escape_html_entities_in_json = true
-    
+
     config.eager_load_paths << "app/models/scopes"
 
     # Use SQL instead of Active Record's schema dumper when creating the database.
@@ -51,7 +51,7 @@ module DMPRoadmap
     # This will create an empty whitelist of attributes available for mass-assignment for all models
     # in your app. As such, your models will need to explicitly whitelist or blacklist accessible
     # parameters by using an attr_accessible or attr_protected declaration.
-    #config.active_record.whitelist_attributes = true	
+    #config.active_record.whitelist_attributes = true
 
     config.autoload_paths += %W(#{config.root}/lib)
     config.action_controller.include_all_helpers = true
@@ -62,7 +62,7 @@ module DMPRoadmap
     # Enable shibboleth as an alternative authentication method
     # Requires server configuration and omniauth shibboleth provider configuration
     # See config/initializers/devise.rb
-    config.shibboleth_enabled = true
+    config.shibboleth_enabled = false
 
     # Relative path to Shibboleth SSO Logout
     config.shibboleth_login = '/Shibboleth.sso/Login'
@@ -75,6 +75,8 @@ module DMPRoadmap
     # A super admin will also be able to associate orgs with their shibboleth entityIds if this is set to true
     config.shibboleth_use_filtered_discovery_service = false
 
+    #config.google_oauth2_use_filtered_discovery_service = true
+
     # Active Record will no longer suppress errors raised in after_rollback or after_commit
     # in the next version. Devise appears to be using those callbacks.
     # To accept the new behaviour use 'true' otherwise use 'false'
@@ -82,7 +84,7 @@ module DMPRoadmap
 
     # Load Branded terminology (e.g. organization name, application name, etc.)
     config.branding = config_for(:branding).deep_symbolize_keys
-    
+
     # The default visibility setting for new plans
     #   organisationally_visible  - Any member of the user's org can view, export and duplicate the plan
     #   publicly_visibile         - (NOT advisable because plans will show up in Public DMPs page by default)

@@ -9,7 +9,7 @@ ContactUs.setup do |config|
   config.mailer_from = nil
 
   # Configure the e-mail address which should receive the contact form email notifications.
-  config.mailer_to = "roadmap-l@listserv.ucop.edu"
+  config.mailer_to = "pgd.unc.ar@gmail.com"
 
   # ==> Form Configuration
 
@@ -23,7 +23,7 @@ ContactUs.setup do |config|
   # Example:
   # config.form_gem = 'formtastic
   # config.form_gem = 'formtastic'
-  
+
   # Set the following variable to true if you are using localized paths
   # e.g. /en/contact-us OR /fr/contact-us
   config.localize_routes = true
